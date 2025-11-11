@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CI/CD Monitoring Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="dashboard">
+    <header>
+      <h1>🚀 Jenkins CI/CD Monitoring Dashboard</h1>
+      <p class="subtitle">Real-time build insights powered by Jenkins API</p>
+    </header>
+
+    <section class="status-card">
+      <div id="buildStatus" class="status-box loading">
+        <span class="dot"></span>
+        <p>Loading build data...</p>
+      </div>
+    </section>
+
+    <section class="chart-section">
+      <canvas id="buildChart"></canvas>
+    </section>
+
+    <section id="buildInfo" class="info-card"></section>
+
+    <footer>
+      <p>© 2025 Jenkins Dashboard | Built with ❤️ by Mahan</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
