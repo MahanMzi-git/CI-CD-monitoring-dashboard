@@ -1,7 +1,7 @@
 # 🚀 CI/CD Monitoring Dashboard  
 A **real-time Jenkins CI/CD monitoring dashboard** that visualizes build results, pipeline health, and deployment status
   — built using **HTML, CSS, JavaScript, and Chart.js**. 
-  This project was developed as part of my **DevOps summer training** to understand how automation, integration, and monitoring work together in real-world CI/CD systems. 
+  This project was developed to understand how automation, integration, and monitoring work together in real-world CI/CD systems. 
 ---  The dashboard connects to a Jenkins server via its REST API and displays:
   - Current build status (`SUCCESS`, `FAILURE`, or `RUNNING`)
   - Live updates every 10 seconds
