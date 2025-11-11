@@ -1,5 +1,5 @@
 const JENKINS_URL = "jenkins host";  // NOT localhost
-const JOB_NAME = "Monitoring_Dashboard_part.co";
+const JOB_NAME = "Monitoring_Dashboard_Mahan_Mizani";
 const USERNAME = "your username";
 const API_TOKEN = "api_token";  // from your Jenkins user settings
 
@@ -72,3 +72,4 @@ function updateChart(buildNum, result) {
 // Run every 10s
 fetchBuildData();
 setInterval(fetchBuildData, 10000);
+
